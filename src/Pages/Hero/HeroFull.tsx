@@ -9,9 +9,7 @@ const HeroFull = (props: Props) => {
     <div className={style.mainContainerFull}>
       <div className={style.leftContainerFull}>
         <h1 className={style.headerFull}>
-          {`The #1 Real Estate
-          Course From PhDs & 
-          Finance Experts`}
+          The #1 Real Estate Course From PhDs & Finance Experts
         </h1>
         <h2 className={style.subHeaderFull}>
           Become a Real Estate Data Scientist in 11 Weeks.
