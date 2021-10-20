@@ -10,7 +10,7 @@ const Nav = (props: Props) => {
   const windowSize = useWindowSize();
 
   const DisplayNav = () => {
-    return windowSize.width > 1148 ? <NavBarFull /> : <NavBarCompact />;
+    return windowSize.width > 1240 ? <NavBarFull /> : <NavBarCompact />;
   };
 
   return <div className={style.mainBackground}>{DisplayNav()}</div>;

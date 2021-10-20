@@ -1,0 +1,149 @@
+.mainContainerFull {
+  position: relative;
+  height: calc(100% - 70px);
+  width: 70%;
+  min-width: 960px;
+  display: flex;
+  padding: 0 15%;
+}
+
+.mainContainerFull::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url(../Resources/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.2;
+  content: "";
+  z-index: -1;
+}
+
+.leftContainerFull {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 30px);
+  align-items: flex-start;
+  margin-right: 30px;
+}
+
+.headerFull {
+  text-align: left;
+  font-size: 5.6rem;
+  color: var(--headerColor);
+  font-weight: 800;
+  margin: 0;
+  line-height: 65px;
+}
+
+.subHeaderFull {
+  font-size: 2.8rem;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 5%;
+}
+
+.descriptionFull {
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.featuresContainerFull {
+  display: flex;
+  margin-top: 12%;
+}
+
+.featureIconFull {
+  transform: scale(3);
+}
+
+.featureTextFull {
+  margin-top: 25px;
+  font-size: 2rem;
+}
+
+/* RIGHT CONTAINER */
+
+.rightContainerFull {
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  min-height: 600px;
+  width: calc(50% - 20px);
+  max-width: 600px;
+  background: var(--containerBg);
+  margin: 20px 10px 0 10px;
+  padding: 20px;
+}
+
+.formContainerFull {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formHeaderFull {
+  color: white;
+  font-size: 6rem;
+  margin: 3% 0 1% 0;
+}
+@media screen and (max-width: 1750px) {
+  .formHeaderFull {
+    font-size: 5.2rem;
+  }
+
+  .headerFull {
+    font-size: 4.8rem;
+  }
+}
+@media screen and (max-width: 1480px) {
+  .formHeaderFull {
+    font-size: 4.6rem;
+  }
+
+  .headerFull {
+    font-size: 4.2rem;
+  }
+
+  .subHeaderFull {
+    font-size: 2.4rem;
+  }
+}
+
+.formRowFull {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+
+.inputFull,
+.inputNoteFull {
+  height: 50%;
+  padding: 10px 15px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 20px 5px;
+  width: 80%;
+}
+
+.inputNoteFull {
+  height: 75px;
+  width: 100%;
+  /* margin: 15px 0;
+  padding: 0; */
+}
+
+.formBtn {
+  background: var(--headerColor);
+  border-radius: 5px;
+  border: 1px solid black;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding: 15px 20px;
+  margin-top: 5%;
+}
+
+/* COMPACT */
