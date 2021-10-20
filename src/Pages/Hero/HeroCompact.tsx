@@ -28,23 +28,35 @@ const HeroCompact = (props: Props) => {
       </div>
       <div className={style.featuresContainerCompact}>
         <div className={style.featureCompact}>
-          <Storage className={style.featureIconCompact} />
+          <Storage
+            className={style.featureIconCompact}
+            style={{ fill: "white" }}
+          />
           <p className={style.featureTextCompact}>Data Science Fundamentals</p>
         </div>
         <div className={style.featureCompact}>
-          <PinDrop className={style.featureIconCompact} />
+          <PinDrop
+            className={style.featureIconCompact}
+            style={{ fill: "white" }}
+          />
           <p className={style.featureTextCompact}>
             Geographic Information Systems
           </p>
         </div>
         <div className={style.featureCompact}>
-          <HomeWork className={style.featureIconCompact} />
+          <HomeWork
+            className={style.featureIconCompact}
+            style={{ fill: "white" }}
+          />
           <p className={style.featureTextCompact}>
             Data Science Methods for Real Estate
           </p>
         </div>
         <div className={style.featureCompact}>
-          <Timeline className={style.featureIconCompact} />
+          <Timeline
+            className={style.featureIconCompact}
+            style={{ fill: "white" }}
+          />
           <p className={style.featureTextCompact}>
             Statistical Analysis & Forecasting Using Large Datasets
           </p>
