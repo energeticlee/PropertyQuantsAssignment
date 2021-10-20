@@ -4,6 +4,8 @@
   --headerColor: #4ebcec;
   --containerBg: #091b37;
   --text: #1d1f28;
+  --speed: 300ms;
+  font-size: 62.5%;
 }
 
 body {
@@ -16,4 +18,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+li {
+  list-style: none;
 }

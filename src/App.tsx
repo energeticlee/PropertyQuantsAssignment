@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
+import Nav from "./Pages/Nav";
+import Hero from "./Pages/Hero";
 
 function App() {
   return (
     <div className="App">
-      {/* NAV */}
-      {/* HERO */}
+      <Nav />
+      <Hero />
     </div>
   );
 }
